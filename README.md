@@ -14,9 +14,10 @@ O projeto tem como objetivo automatizar a identificação e separação de mater
 
 ## Dataset TACO
 ​O TACO (Trash Annotations in Context) é um conjunto de dados de código aberto que contém imagens de resíduos sólidos em ambientes reais, como florestas, estradas e praias. As imagens são anotadas manualmente e segmentadas de acordo com uma taxonomia hierárquica, permitindo o treinamento e a avaliação de algoritmos de detecção de objetos. As anotações são fornecidas no formato COCO.
+https://github.com/pedropro/TACO
 
 ## A análise exploratória
-Conduzida no notebook Trabi.ipynb, contendo todo o processo de leitura, agrupamento e organização dos dados do dataset TACO. A primeira etapa consistiu no carregamento do arquivo original annotations.json, que contém as anotações completas do dataset. Esse arquivo foi clonado diretamente do repositório oficial do TACO (GitHub - TACO Dataset).
+Conduzida no notebook Trabi.ipynb, contendo todo o processo de leitura, agrupamento e organização dos dados do dataset TACO. A primeira etapa consistiu no carregamento do arquivo original annotations.json, que contém as anotações completas do dataset. Esse arquivo foi clonado diretamente do repositório oficial do TACO ([[GitHub - TACO Dataset](http://tacodataset.org/)](https://github.com/pedropro/TACO)).
 
 Etapas principais:
 - Leitura do annotations.json original
